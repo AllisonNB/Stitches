@@ -1,0 +1,27 @@
+.item {
+  background-color: #fff;
+  color: #000000;
+  border-radius: 1rem;
+  text-align: center;
+  padding: 1rem;
+  position: relative;
+}
+
+.item:hover {
+  transform: scale(1.02);
+  cursor: pointer;
+}
+
+.item img {
+  border-radius: 1rem;
+}
+
+.badge {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: #3c8f73;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 1rem;
+}

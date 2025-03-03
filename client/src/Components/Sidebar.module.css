@@ -1,0 +1,17 @@
+.sidebar {
+  grid-row: 2 / 3; /* Sidebar spans the second row */
+  grid-column: 1 / 2; /* Sidebar occupies the first column */
+  background-color: #c26368;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.sidebarOption {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.sidebarOption:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}

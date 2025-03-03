@@ -1,0 +1,9 @@
+.header {
+  grid-row: 1 / 2; /* Header across 1st row */
+  grid-column: 1 / 3; /* Header across all columns */
+  background-color: #3c8f73;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  font-weight: 700;
+}

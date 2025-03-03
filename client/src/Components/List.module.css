@@ -1,0 +1,31 @@
+.content {
+  grid-row: 2 / 3; /* Main content in 2nd row */
+  grid-column: 2 / 3; /* Main content in 2nd column */
+  background-color: #bc4b51;
+  color: #fff;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+.listGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+.addButton {
+  position: absolute;
+  bottom: 20px;
+  right: 10px;
+  padding: 10px 20px;
+  background-color: #015237;
+  color: white;
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.addButton:hover {
+  background-color: #012c1e;
+}
