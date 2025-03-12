@@ -1,10 +1,14 @@
 import classes from "./List.module.css";
 import Item from "./Item";
 
-const List = () => {
+type ListProps = {
+  selectedOption: string;
+};
+
+const List = ({ selectedOption }: ListProps) => {
   return (
     <div className={classes.content}>
-      <h1>CONTENT</h1>
+      <h1>{selectedOption}</h1>
       <ul className={classes.listGrid}>
         <li>
           <Item />

@@ -4,8 +4,9 @@ An app that links to notion's API to keep track of my patterns, fabrics, and pro
 
 ## Next Steps
 
-- link state in app component to selected sidebar option, conditionally display template list or project list
-- API call to notion for fabrics
+✔ link state in app component to selected sidebar option, conditionally display template list or project list
+
+- API call to notion to read fabrics
 - API call to notion for Patterns
 - setup layout for Project display
 
